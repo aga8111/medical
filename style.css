@@ -1,0 +1,25 @@
+:root {
+    --mavi: #6bc2f1;
+}
+.bg-mavi{ background-color: var(--mavi); }
+.text-mavi { color: var(--mavi) }
+header {
+    background: url('img/headerbg.jpg') 60% 50% /cover;   
+}
+footer {
+    background-color: #072035;
+}
+#f1 {
+    background: url('img/f1.jpg');
+}
+#f2 {
+    background: url('img/f2.jpg');
+}
+#f1:hover , #f2:hover {
+    opacity: 0.5;
+}
+#f1:hover a , #f2:hover a { display: initial !important;}
+.min-vh-50 { min-height: 50vh }
+.mw-33 { min-width: 33.33%;}
+.bg-boz { background-color: #f1f1f1; }
+.text-boz { color: #f1f1f1; }
